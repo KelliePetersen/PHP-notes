@@ -20,11 +20,33 @@ PHP is saved in .php files and can be used in .html files. It must be enclosed i
 
 ## Basics
 
+| Description | PHP |
+| --- | --- |
+| Single-line Comment | // I am a comment or # I am a comment |
+| Multi-line Comment| /* I am a multi-line comment \*/ |
+| Defining variables | $myVariable = "I am a variable"; |
+| Printing lines (1 value only) | print("Hello $name"); or print "Hello $name"; |
+| Printing lines (multiple values) | echo "Hello $name"; |
+| Swap values | [$a, $b] = [$b, $a]; |
+
 ## Strings
 
 ### Length and White Space
 
 ### Character Types  
+
+| Description | PHP |
+| --- | --- |
+| Check if all characters are lowercase | ctype_lower($string) |
+| Check if all characters are uppercase | ctype_upper($string) |
+| Check if all characters are letters | ctype_alpha($string) |
+| Check if all characters are alphanumeric | ctype_alnum($string) |
+| Check if all characters are digits | ctype_digit($string) |
+| Check if all characters are decimal | is_float($string) |
+| Check if all characters are numeric | is_numeric($string) |
+| Check if all characters are space | ctype_space($string) |
+| Check if all characters are printable | ctype_print($string) |
+| Checks if characters are control characters | ctype_cntrl($string) |
 
 ## Arrays  
 
